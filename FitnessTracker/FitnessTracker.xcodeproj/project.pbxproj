@@ -11,6 +11,8 @@
 		035026C02C14585B0083117F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035026BF2C14585B0083117F /* ContentView.swift */; };
 		035026C22C14585E0083117F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035026C12C14585E0083117F /* Assets.xcassets */; };
 		035026C52C14585E0083117F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035026C42C14585E0083117F /* Preview Assets.xcassets */; };
+		035026CC2C145E650083117F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035026CB2C145E650083117F /* Models.swift */; };
+		035026CE2C145EF20083117F /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035026CD2C145EF20083117F /* AddWorkoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		035026BF2C14585B0083117F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		035026C12C14585E0083117F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		035026C42C14585E0083117F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		035026CB2C145E650083117F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		035026CD2C145EF20083117F /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				035026BF2C14585B0083117F /* ContentView.swift */,
 				035026C12C14585E0083117F /* Assets.xcassets */,
 				035026C32C14585E0083117F /* Preview Content */,
+				035026CB2C145E650083117F /* Models.swift */,
+				035026CD2C145EF20083117F /* AddWorkoutView.swift */,
 			);
 			path = FitnessTracker;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035026CC2C145E650083117F /* Models.swift in Sources */,
 				035026C02C14585B0083117F /* ContentView.swift in Sources */,
+				035026CE2C145EF20083117F /* AddWorkoutView.swift in Sources */,
 				035026BE2C14585B0083117F /* FitnessTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

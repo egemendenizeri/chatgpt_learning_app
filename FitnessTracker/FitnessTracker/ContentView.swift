@@ -4,13 +4,26 @@
 //
 //  Created by egemen denizeri on 8.06.2024.
 //
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                Text("Fitness Tracker")
+                    .font(.largeTitle)
+                    .padding()
+                
+                NavigationLink(destination: AddWorkoutView()) {
+                    Text("Add Workout")
+                        .font(.title2)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
+            }
+        }
     }
 }
 
